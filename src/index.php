@@ -11,7 +11,7 @@ class Index
 
 	public function createNonceUrl($url, $postWithId, $nonceName = "my_nonce")
 	{	
-		$field = "<input type='hidden' name='".$nonceName."' value='".$this->createNonceField()."'>"
+		$field = "<input type='hidden' name='".$nonceName."' value='".$this->createNonceField()."'>";
 		return $field;
 	}
 }
