@@ -1,0 +1,17 @@
+{
+    "name": "remizmohammed/composer-nonce",
+    "description": "This is a Custom Composer package which mirror the functionality of wordpress core wp_nonce_* methods.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohammed Remeez",
+            "email": "remizhere@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {"remizmohammed\\ComposerNonce\\": "src/"}
+    },
+    "require": {}
+}
