@@ -3,6 +3,8 @@ This is a Custom Composer package which mirror the functionality of wordpress co
 
 To use this package in your composer project,
 
-type this in your root directory,
+type below command at root directory,
 
+```
 composer require remizmohammed/composer-nonce "@dev"
+```
