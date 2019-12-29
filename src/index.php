@@ -4,8 +4,8 @@ namespace remizmohammed\ComposerNonce;
 
 class Index
 {
-	public function greet($greet = "Hello World")
+	public function createNonceField()
 	{
-		return $greet;
+		return 123345656;
 	}
 }
