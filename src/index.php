@@ -1,6 +1,6 @@
 <?php
 
-namespace remizmohammed/ComposernNonce;
+namespace remizmohammed\ComposerNonce;
 
 class Index
 {
