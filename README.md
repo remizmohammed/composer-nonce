@@ -8,3 +8,4 @@ type below command at root directory,
 ```
 composer require remizmohammed/composer-nonce "@dev"
 ```
+Please note: Since this package uses wordpress functions,it works in composer wordpress installations only. We are updating this package to work in isolations.

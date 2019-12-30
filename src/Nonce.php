@@ -8,7 +8,7 @@ namespace remizmohammed\ComposerNonce;
 abstract class Nonce
 {
 
-	abstract protected function getNonceField( $action , $name  $referer , $echo  );
+	abstract protected function getNonceField( $action , $name, $referer , $echo  );
 	abstract protected function getNonceUrl( $actionurl, $action, $name  );   
 
 	/**
