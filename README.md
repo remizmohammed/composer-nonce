@@ -12,7 +12,8 @@ Please note: Since this package uses wordpress functions,it works in composer wo
 
 To call nonce functions from your theme, try below example.
 
-To get nonce field in form,
+To get nonce field in form:
+
 ```
 use remizmohammed\ComposerNonce\Wpnonce;
 $nonce = new Wpnonce();
@@ -21,7 +22,8 @@ $nonce->getNonceField();
 this returns hidden nonce field with default field name and refere field.
 you can pass parameters similar to the wp_nonce_field();
 
-To get nonce in URL.
+To get nonce in URL:
+
 ```
 use remizmohammed\ComposerNonce\Wpnonce;
 $nonce = new Wpnonce();
