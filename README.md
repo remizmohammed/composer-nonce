@@ -27,4 +27,4 @@ use remizmohammed\ComposerNonce\Wpnonce;
 $nonce = new Wpnonce();
 $nonce->getNonceUrl( $actionurl );
 ```
-this returns the url with nonce field appended to the URLs.
+this returns the url with nonce field appended to the URL.
