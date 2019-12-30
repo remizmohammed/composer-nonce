@@ -19,7 +19,7 @@ $nonce = new Wpnonce();
 $nonce->getNonceField();
 ```
 this returns hidden nonce field with default field name and refere field.
-you can pass parameters similar to the wp_nonce_field( );
+you can pass parameters similar to the wp_nonce_field();
 
 To get nonce in URL.
 ```
